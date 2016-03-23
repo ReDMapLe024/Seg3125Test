@@ -99,7 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Economy"
+        android:text="Economics"
         android:id="@+id/textView4"
         android:layout_below="@+id/button_economics"
         android:layout_alignEnd="@+id/textView2"

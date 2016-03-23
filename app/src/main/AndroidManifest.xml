@@ -29,7 +29,8 @@
         <activity
             android:name=".Trigonometry"
             android:label="Trigonometry" />
-        <activity android:name=".AlgebraActivity"></activity>
+        <activity android:name=".AlgebraActivity" />
+        <activity android:name=".AlgebraQuizActivity"></activity>
     </application>
 
 </manifest>

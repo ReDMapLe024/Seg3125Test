@@ -12,7 +12,11 @@ import android.view.MenuItem;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ExpandableListView;
 import android.widget.ImageButton;
+
+import java.util.HashMap;
+import java.util.List;
 
 
 public class MainActivity extends Activity implements View.OnClickListener{
@@ -21,6 +25,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
     Button glossaryButton;
     Button learnButton;
     ImageButton mathButton;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -43,6 +50,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
         glossaryButton.setOnClickListener(this);
         mathButton = (ImageButton) findViewById((R.id.button_mathematics));
         mathButton.setOnClickListener(this);
+
+
     }
 
 
